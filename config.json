@@ -1,5 +1,6 @@
 
-
 {
-    "token":
+    "token": "process.env.token",
+    "prefix": ""
+
 }
