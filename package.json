@@ -1,0 +1,23 @@
+{
+  "name": "simplon-devcloud-bot-discord",
+  "version": "1.0.0",
+  "description": "Creation of a discord bot that replies to specific messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMorjane/simplon-devcloud-bot-discord.git"
+  },
+  "author": "Marwa, Morjane, Tiphaine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RMorjane/simplon-devcloud-bot-discord/issues"
+  },
+  "homepage": "https://github.com/RMorjane/simplon-devcloud-bot-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
