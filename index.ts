@@ -1,5 +1,10 @@
-const Discord = import('discord.js');
-const env = require('dotenv').config();
+const Discord = require('discord.js');
 const client = new Discord.Client();
+ 
+const env = require('dotenv').config();
 
-client.login(token)
+
+
+
+// client.login(token);
+console.log(process.env.token)
