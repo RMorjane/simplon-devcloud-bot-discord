@@ -1,0 +1,9 @@
+name: Push on GitHub successfull
+on:
+  - push 
+jobs : 
+  FirstJob: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Push 
+        run: echo "Changes pushed successfully"
