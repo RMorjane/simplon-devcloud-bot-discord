@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Creation of a discord bot that replies to specific messages",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,11 @@
   },
   "homepage": "https://github.com/RMorjane/simplon-devcloud-bot-discord#readme",
   "dependencies": {
+    "chai": "4.3.4",
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "mocha": "^8.3.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.2.3"
   }
 }
