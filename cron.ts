@@ -25,13 +25,13 @@ cron.schedule("00 13 * * *", function(){
     channel.send("Lunch break! ")
 });
 
-cron.schedule("00 13 * * *", function(){
+cron.schedule("00 14 * * *", function(){
     console.log("The cron is running...");
     const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
     channel.send("No nap for the brave, go back to work! ")
 });
 
-cron.schedule("00 14 * * *", function(){
+cron.schedule("00 16 * * *", function(){
     console.log("The cron is running...");
     const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
     channel.send("Break time people! ")
