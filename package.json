@@ -3,28 +3,21 @@
   "version": "1.0.0",
   "description": "Creation of a discord bot that replies to specific messages",
   "main": "index.ts",
-
-
   "directories": {
     "test": "test"
   },
-  
   "scripts": {
     "test": "mocha"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RMorjane/simplon-devcloud-bot-discord.git"
   },
-
   "author": "Marwa, Morjane, Tiphaine",
   "license": "ISC",
-
   "bugs": {
     "url": "https://github.com/RMorjane/simplon-devcloud-bot-discord/issues"
   },
-
   "homepage": "https://github.com/RMorjane/simplon-devcloud-bot-discord#readme",
   "dependencies": {
     "chai": "4.3.4",
@@ -32,6 +25,7 @@
     "dotenv": "^8.2.0",
     "mocha": "^8.3.2",
     "node-cron": "^3.0.0",
+    "simple-node-logger": "^18.12.24",
     "tsc": "^1.20150623.0",
     "typescript": "^4.2.3"
   }
