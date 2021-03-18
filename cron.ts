@@ -20,7 +20,7 @@ cron.schedule("30 09 * * *", function(){
     log.info("CRON end: sending message at 9:30")
 });
 
-cron.schedule("00 11 * * *", function(){
+cron.schedule(" 11 * * *", function(){
     console.log("The cron is running...");
     log.info("CRON start: sending message at 11:00")
 
