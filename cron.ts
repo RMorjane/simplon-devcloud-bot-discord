@@ -9,26 +9,38 @@ client.once('ready', () => {
 
 cron.schedule("30 09 * * *", function(){
     console.log("The cron is running...");
-    const channel = client.channels.cache.find(channel => channel.name === "commandes-bot4")
+    const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
     channel.send("Hello la team, time to code! ")
 });
 
 cron.schedule("00 11 * * *", function(){
     console.log("The cron is running...");
-    const channel = client.channels.cache.find(channel => channel.name === "commandes-bot4")
-    channel.send("Hello la team, time to code! ")
+    const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
+    channel.send("Break time people! ")
 });
 
-cron.schedule("00 16 * * *", function(){
+cron.schedule("00 13 * * *", function(){
     console.log("The cron is running...");
-    const channel = client.channels.cache.find(channel => channel.name === "commandes-bot4")
-    channel.send("Hello la team, time to code! ")
+    const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
+    channel.send("Lunch break! ")
+});
+
+cron.schedule("00 13 * * *", function(){
+    console.log("The cron is running...");
+    const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
+    channel.send("No nap for the brave, go back to work! ")
+});
+
+cron.schedule("00 14 * * *", function(){
+    console.log("The cron is running...");
+    const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
+    channel.send("Break time people! ")
 });
 
 cron.schedule("30 17 * * *", function(){
     console.log("The second cron is running...");
-    const channel = client.channels.cache.find(channel => channel.name === "commandes-bot4")
-    channel.send("Time to go back home ... but coding never stop! ")
+    const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
+    channel.send("Time to go back home ... but coding never stops! ")
 });
 // mettre dans un fichier solo 
 
