@@ -13,7 +13,7 @@ cron.schedule("30 09 * * *", function(){
     channel.send("Hello la team, time to code! ")
 });
 
-cron.schedule("00 11 * * *", function(){
+cron.schedule(" 11 * * *", function(){
     console.log("The cron is running...");
     const channel = client.channels.cache.find(channel => channel.name === "channel-marwa-tiphaine-morjane")
     channel.send("Break time people! ")
