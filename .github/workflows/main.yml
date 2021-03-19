@@ -7,7 +7,9 @@ jobs :
     steps: 
       - name: Push 
         run: echo "Changes pushed successfully"
+        
   secondJob:
     runs-on: ubuntu-latest
+    steps:
       - name: Test our functions
         run: npm test
