@@ -20,10 +20,10 @@ function find_response(message){
 	}
 }
 
-var assert = require('assert');
+/*var assert = require('assert');
 describe('find_response',function(){
 	it('find_response',function(){
 		let response = find_response("quel temps fait il ?");
 		assert.equal(response,"il pleut")
 	});
-});
+});*/
