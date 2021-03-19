@@ -16,10 +16,37 @@ describe('test of our v.1 bot', function(){
         assert.isFunction(test_func_greeting, "function");
     })
 
+
     it('reply msg function is returning function', function(){
         assert.isFunction(test_func_hello, "function");
     })
 
+    it("checking if my func is retrurning 'hello' message", function(){
+       
+         assert.equal(test_func_greeting("hello", "hello !"))
+            
+    });
+    
+    it("checking if my func is retrurning 'Bonjour' message", function(){
+       
+        assert.equal(test_func_greeting("Bonjour", "Bonjour !"))
+           
+   });
+
+   it("checking if my func is retrurning 'yo' message", function(){
+       
+    assert.equal(test_func_greeting("yo", "yo !"))
+       
+    });
+
+    it("checking if my func is retrurning 'Hola' message", function(){
+       
+        assert.equal(test_func_greeting("Hola", "Hola !"))
+           
+   });
+
+
+    // it('response ')
     // it('test if reply function return hello', async () => {
 
     //     await client.replySameMessage('hello')
@@ -28,9 +55,9 @@ describe('test of our v.1 bot', function(){
 
     // }, 
     
-    function(err) {
-        if (err) throw err; // will fail the assert.doesNotThrow
-        done();
-    })
+    // function(err) {
+    //     if (err) throw err; // will fail the assert.doesNotThrow
+    //     done();
+    // })
 
 })
