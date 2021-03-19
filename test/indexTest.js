@@ -23,7 +23,7 @@ describe('test of our v.1 bot', function(){
     it('verify the conformity of the message and return the correct response if it exists', function(){
     	let response = find_response("quel temps fait il ?");
 	assert.equal(response,"il pleut");
-    }
+    })
 
     // it('test if reply function return hello', async () => {
 
