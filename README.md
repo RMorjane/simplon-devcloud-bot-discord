@@ -50,9 +50,9 @@ In the near futur, we will add more functionnalities in our discord bot :
  - [X] Deploying it with Azure App Service
 
 ## Credits
-Marwa Majbri : https://github.com/Marwacoding*.
-Tiphaine Minguet : https://github.com/Tiphnm*.
-Morjane Rhellab : https://github.com/RMorjane*.
+- Marwa Majbri : https://github.com/Marwacoding
+- Tiphaine Minguet : https://github.com/Tiphnm
+- Morjane Rhellab : https://github.com/RMorjane
  
 ## Timeline
 
